@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Sroll Trigger</title>
+</head>
+<body>
+    <header class="header" 
+    data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-delay="100"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-sine">
+        <nav class="nav__bar">
+            <div class="logo">
+                <h1>CRTE.ai</h1>
+            </div>
+            <div class="nav__links">
+                <p class="nav__item">Home</p>
+                <p class="nav__item">Pricing</p>
+                <p class="nav__item">Contact us</p>
+            </div>
+            <button>Start Your Free Trial</button>
+        </nav>
+    </header>
+    <main class="main">
+        <section  class="one">
+            <h1 
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-delay="100"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine">Automate your Designs with World's Best AI</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aut reiciendis provident fugit beatae voluptas? Impedit voluptatum cum corrupti ullam.</p>
+            <div class="layer">
+                <span>Lorem ipsum dolor.</span>
+                <button>Start Your Free Trial</button>
+            </div>
+        </section>
+        <section class="two">
+            <img src="./laptop-removebg-preview.png" alt="">
+        </section>
+
+        <section class="three">
+            <h1>Create automation templates without writing a single line of code</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corporis deleniti placeat natus maiores, architecto rerum ab tempora inventore reiciendis, ex, officiis nesciunt ipsa cupiditate. Temporibus similique quisquam reiciendis voluptate.
+            </p>
+            <button>Start Your Free Trial</button>
+        </section>
+        <section class="four">
+            <h1>Pick your preferred plan to get going right now.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae corporis deleniti.
+            </p>
+        </section>
+        <section class="five">
+            <div class="card">
+                <h1>Basic</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,</p>
+                <button>0$</button>
+            </div>
+            <div class="card">
+                <h1>Premium</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,</p>
+                <button>25$/Month</button>
+            </div>
+            <div class="card">
+                <h1>Professional</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,</p>
+                <button>85$/Month</button>
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
+
+</body>
+</html>
